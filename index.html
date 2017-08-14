@@ -5,6 +5,22 @@
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/style.css" rel="stylesheet" type="text/css">
 
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-104543372-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 </head>
 
 <body>
@@ -13,15 +29,25 @@
     <img src="assets\logoBig.png" height="100" width="100" alt="Menu Logo">
     <p>We Provide The Best </p>
     <p>Food At The <strong>Right price</strong>
-</div>
+  </div>
   <div class="container">
     <div>
-      <div class="row col-sm-3"><p>Happy hour </p></div>
-      <div> <p>Party Time </p></div>
+      <div class="row col-sm-3">
+        <p>Happy hour </p>
+      </div>
+      <div>
+        <p>Party Time </p>
+      </div>
     </div>
-    <div class="row col-sm-3"><p> Breakfast</p></div>
-    <div class="row col-sm-3"><p> Lunch</p></div>
-    <div class="row col-sm-3"> <p>Dinner </p></div>
+    <div class="row col-sm-3">
+      <p> Breakfast</p>
+    </div>
+    <div class="row col-sm-3">
+      <p> Lunch</p>
+    </div>
+    <div class="row col-sm-3">
+      <p>Dinner </p>
+    </div>
   </div>
 
   <div class="container">
@@ -69,37 +95,33 @@
 
     <div class="col-sm-3"> </div>
   </div>
-
-  <div class="container">
-    <form class="form-inline">
-      <div class="form-group">
-        <label for="email">Email address:</label>
-        <input type="email" class="form-control" id="email">
-      </div>
-      <button type="submit" class="btn btn-default">Submit</button>
-    </form>
+  <div class="email" style="background-image: url(subscribe.jpg)">
+    <div class="container">
+      <h3>Get Our Daily Food Items Delivered To Your Email</h3>
+      <form class="form-inline">
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input type="email" class="form-control" id="email" placeholder="Your Email Goes Here">
+        </div>
+        <button type="submit" class="btn btn-default">Subscribe</button>
+      </form>
+    </div>
   </div>
 
   <div class="footer">
+
     <img src="assets\footerlogos\logo_white.png">
+    <p>Menu</p>
+    >
     <p>Thats What We Are</p>
     <a href="#"><img src="assets\footerlogos\facebook.png" height="48" width="48" ></a>
-    <a href="#"><img src="assets\footerlogos\pinterest.png"></a>
+    <a href="#"><img src="assets\footerlogos\pinterest.png" height="48" width="48"></a>
     <a href="#"><img src="assets\footerlogos\twitter.png" height="48" width="48"></a>
 
     <p> 2016 Menu Restaurant</p>
   </div>
 
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-104543372-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </body>
 
 </html>
