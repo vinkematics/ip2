@@ -1,5 +1,23 @@
-.logo{
-  align-content: center;
-  background-image:url("assets\backgrounds\landing.jpg") ;
+body{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.jumbotron
+{
   text-align: center;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 10px;
+}
+.container
+{
+  border-width: 3px;
+}
+.footer
+{
+  text-align: center;
+  background-color: #F15A29;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
