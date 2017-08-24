@@ -9,6 +9,7 @@ body {
     padding-top: 40px;
     padding-bottom: 40px;
     margin-top: 10px;
+    background-image: url("../assets/backgrounds/landing.jpg")
 }
 
 .container {
@@ -33,5 +34,48 @@ body {
 
 .btn {
     background: #F15A29;
+    color: white;
+}
+
+
+/* #menuitem {
+    list-style-type: none;
+    display: inline;
+} */
+
+.item1 {
+    display: inline-block;
+    width: 370px;
+    height: 210px;
+    padding-top: 0;
+}
+
+#breakfast {
+    background-image: url("../assets/foodtop/breakfast.jpg");
+    text-align: center;
+    color: white;
+}
+
+#lunch {
+    background-image: url("../assets/foodtop/lunch.jpg");
+    text-align: center;
+    color: white;
+}
+
+#dinner {
+    background-image: url("../assets/foodtop/dinner.jpg");
+    text-align: center;
+    color: white;
+}
+
+#happyhour {
+    background-image: url("../assets/foodtop/dinner.jpg");
+    text-align: center;
+    color: white;
+}
+
+#partytime {
+    background-image: url("../assets/foodtop/dinner.jpg");
+    text-align: center;
     color: white;
 }
