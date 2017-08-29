@@ -1,11 +1,17 @@
-<html>
-
+ 
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Landing Page</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-
-    <script>
+  <title>Anita's Kitchen</title>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" href="images/cofeeicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Handlee">
+        <link href="CSS/styles.css" rel="stylesheet" type="text/css"/>
+<!--        google analytics linking-->
+        <script>
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
             i[r] = i[r] || function() {
@@ -22,113 +28,199 @@
         ga('send', 'pageview');
     </script>
 </head>
+    <body>
 
-<body>
-
-    <div class="jumbotron1">
-        <img src="assets\logoBig.png" height="300" width="300" alt="Menu Logo">
-        <p>We Provide The Best </p>
-        <p>Food At The <strong>Right price</strong>
-    </div>
-
-    <div class=" section1 row">
-
-        <div class="col-sm-3 happy">
-            <div id="happyhour">
-                <p>Happy Hour</p>
-            </div>
-            <div id="partytime">
-                <p>Party Time</p>
-            </div>
-        </div>
-        <div class="col-sm-3 pull-left" id="breakfast">
-            <p>Breakfast</p>
-        </div>
-        <div class="col-sm-3 pull-left" id="lunch">
-            <p>Lunch</p>
-        </div>
-        <div class="col-sm-3 pull-left" id="dinner">
-            <p>Dinner</p>
-        </div>
-
-    </div>
-
-
-
-    <div class="row section2">
-        <div class=" col-sm-6 ">
-            <img src="assets\fastFood1.jpg ">
-            <img src="assets\fastFood2.jpg ">
-        </div>
-
-        <div class="col-sm-6 ">
-            <p><b>Fast Food<b></p>
-    <p><b>You'll love our delicious fast food</b></p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-        </div>
-    </div>
-
-
-    <div class="row section3">
-        <div class="col-sm-6 ">
-            <p>Drinks</p>
-            <p>We also produce delicious drinks</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-        </div>
-
-        <div class="col-sm-6 images2 ">
-            <img src="assets\drink1.jpg ">
-            <img src="assets\drink2.jpg ">
-        </div>
-    </div>
-
-    <div class="row ">
-        <div class=" col-sm-3 "> </div>
-
-        <div class=" col-sm-3 ">
-            <p> Our Happy Customers</p>
-            <p>George Richard</p>
-
-            <p>Great food! Menu is awesome, their foods are not only great but also in the right price. I'll highly recommend them:) </p>
-        </div>
-
-        <div class="col-sm-3 ">
-            <p>About menu</p>
-            <p> we are menu little team of 7 members. uti wisi enim ad minim quis nos trudexer ci tation ullamcorper suscipit lob ortis nisl ut aliquip ex ea commodo conse quat. duisau vel eum dolor inc</p>
-        </div>
-
-        <div class="col-sm-3 "> </div>
-    </div>
-    <div class="email " style="background-image: url(subscribe.jpg) ">
-        <div class="container ">
-            <h3>Get Our Daily Food Items Delivered To Your Email</h3>
-            <form class="form-inline ">
-                <div class="form-group ">
-                    <label for="email ">Email address:</label>
-                    <input type="email " class="form-control " id="email " placeholder="Your Email Goes Here ">
+    <div class="col-md-12 media">
+        <div class="col-md-12 overlay">
+            <div class="men">
+                <div id="myNav" class="overlayMenu">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <div class="overlay-content">
+                    <a href="#">Contacts</a>
+                    <a href="#">Events</a>
+                    <a href="#">Menu</a>
+                  </div>
                 </div>
-                <button type="submit " class="btn btn-default ">Subscribe</button>
-            </form>
+                <span style="font-size:50px;cursor:pointer;color:#ffffff;" onclick="openNav()">&#9776; </span>
+
+            </div>
+            <p class="logo"><img src="images/logoBig.png"  class="img-responsive" style="display:inline" alt="Dinner" width="400" height="400"></p>
+            <h1 class="header">We Provide The Best Food<br/> At The <b>Right Price</b></h1>
         </div>
     </div>
 
-    <div class="footer ">
+<!--END MEDIA-->
 
-
-        <img src="assets\footerlogos\logo_white.png ">
-        <p>Menu</p>
-        >
-        <p>Thats What We Are</p>
-        <a href="# "><img src="assets\footerlogos\facebook.png " height="48 " width="48 "></a>
-        <a href="# "><img src="assets\footerlogos\pinterest.png " height="48 " width="48 "></a>
-        <a href="# "><img src="assets\footerlogos\twitter.png " height="48 " width="48 "></a>
-
-        <p> 2016 Menu Restaurant</p>
+<!--HAPPY-->
+<div class="container-fluid">
+<div class="row">
+    <div class="col-md-3 bg-1">
+    <!---happyhour----->
+        <div class="col-md-12 bg-0">
+            <div class="happy">
+                <div class="text" style="color:#000000;">Happy Hour</div>
+            </div>
+        </div>
+    <!---partytime----->
+        <div class="col-md-12 bg-00">
+            <div class="happy">
+                <div class="text">Party Time</div>
+            </div>
+        </div>
     </div>
+    <!---breakfast----->
+    <div class="col-md-3 bg-1">
+        <img src="images/breakfast.jpg"  class="img-responsive" style="display:inline" alt="Breakfast" width="100%" height="100%">
+        <div class="overlay-mini">
+            <div class="text">Breakfast</div>
+        </div>
+    </div>
+    <!---Lunch----->
+    <div class="col-md-3 bg-1">
+        <img src="images/lunch.jpg"  class="img-responsive" style="display:inline" alt="Lunch" width="100%" height="100%">
+        <div class="overlay-mini">
+            <div class="text">Lunch</div>
+        </div>
+    </div>
+    <!---dinner----->
+    <div class="col-md-3 bg-1">
+        <img src="images/dinner.jpg"  class="img-responsive" style="display:inline" alt="Dinner" width="100%" height="100%">
+        <div class="overlay-mini">
+            <div class="text">Dinner</div>
+        </div>
+    </div>
+</div>
+</div>
+<!--END HAPPY-->
+
+<!--FASTFOOD-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 bg-1">
+            <div class="fasts">
+                <img src="images/fastFood1.jpg"  class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
+                <img src="images/fastFood2.jpg"  class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
+            </div>
+        </div>
+        <div class="col-md-6 bg-1">
+            <div id="text1">
+                <h1>Fast Food</h1>
+                <h3>You'll love our delicious fast food</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                <br/><br/><br/>
+                <a href="#"><button class="button button1">VIEW GALLERY &#8594;</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 bg-1">
+            <div id="text2">
+                <h1>Drinks</h1>
+                <h3>You'll love our delicious fast food</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                <br/><br/><br/>
+                <a href="#"><button class="button button1">VIEW GALLERY &#8594;</button></a>
+            </div>
+        </div>
+        <div class="col-md-6 bg-1">
+            <div class="fasts">
+                <div class="container-fluid">
+                 <div class="row">
+                <div class="col-md-6 bg-10">
+                   <img src="images/drink1.jpg"  class="img-responsive" style="display:inline" alt="Dinner" width="" height="">
+                </div>
+                <div class="col-md-6 bg-10">
+                   <img src="images/drink2.jpg"  class="img-responsive" style="display:inline" alt="Dinner" width="" height="">
+                </div>
+            </div>
+                </div></div>
+        </div>
+    </div>
+</div>
 
 
-</body>
+<div class="col-md-12 media2">
+    <div class="party">
+      <div class="partyhead">
+		
+      </div>
+		<div id="burger">
+		<img src="images/beefBurger.jpg"  class="img-responsive" style="display:inline" alt="Dinner" width="" height="">
+		<img src="images/chickenBurger.jpg"  class="img-responsive" style="display:inline" alt="Dinner" width="" height="">
+		<img src="images/chickenPizza.jpg"  class="img-responsive" style="display:inline" alt="Dinner" width="" height="">
+        </div>
+    </div>
+</div>
 
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 bg-1">
+         <div class="col-md-12 cust">
+        <div class="col-md-8 bg-1">
+            <div id="text3">
+                <h2 style="color:#F15A29;">Our Happy Customers</h2>
+                <h3>George Richard</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit </p>
+                <span style="font-size:30px;color:#F15A29;"> &#8249; </span>
+                <img src="images/p1.png"  class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
+                <img src="images/p2.png"  class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
+                <img src="images/p3.png"  class="img-responsive" style="display:inline" alt="fastfood" width="" height=""><span style="font-size:30px;color:#F15A29;"> &#8250;</span>
+            </div>
+        </div>
+        <div class="col-md-4 bg-1">
+            <div id="text3">
+                <h2 style="color:#F15A29;">About Menu</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div>
+             </div></div>
+      </div>
+    </div>
+</div>
+
+
+
+<div class="col-md-12 media3">
+    <h1 class="textt">Get our daily food items delivered to your email</h1>
+    <div class="mail">
+        <form action="">
+            <input type="email" name="email" class="formStyle" placeholder="Your Email" required />
+            <a href="#" class="formButton">Subscribe</a>
+      </form>
+    </div>
+</div>
+
+
+
+<div class="col-md-12 footer">
+    <div class="social">
+        <h1 style="color:#ffffff;"><img src="images/logo_white.png"  class="img-responsive" style="display:inline" alt="fastfood" width="" height=""> MENU</h1>
+        <h3>Thats What We Are</h3><br/>
+        <img src="images/facebook.png"  class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
+        <img src="images/twitter.png"  class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
+        <img src="images/pinterest.png"  class="img-responsive" style="display:inline" alt="fastfood" width="" height=""><br/><br/><br/>
+        <h4>2016 Menu Restaurant</4>
+    </div>
+</div>
+
+
+
+<script>
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
+>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    </body>
 </html>
